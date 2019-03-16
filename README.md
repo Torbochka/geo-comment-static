@@ -1,1 +1,1 @@
-geo-comment.github.io
+https://torbochka.github.io/geo-comment.github.io/

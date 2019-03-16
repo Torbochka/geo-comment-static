@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script src="https://api-maps.yandex.ru/2.1.73/?apikey=a5aed195-90aa-45d5-a3a6-cee5ef5ee9a9&lang=ru_RU" type="text/javascript"></script>
+<link href="index.css" rel="stylesheet"></head>
+<body>
+    <div id="map" style="min-height: 600px"></div>
+    <div id="feedback" class="feedback">
+        <div id="header" class="header">
+            <div class="place"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="location"></div>
+            <div class="close" id="close"><i class="fas fa-times"></i></div>
+        </div>
+        <div id="comments" class="comments">
+                <div class="comment"><span>Отзывов пока нет...</span></div>
+        </div>
+        <div id="body" class="body">
+            <h2>Ваш отзыв</h2>
+            <form id="description" name="add-comment">
+                <input id="name" type="text" name="name" placeholder="Ваше имя">
+                <input id="place" type="text" name="place" placeholder="Укажите место">
+                <textarea id="comment" name="comment" cols="30" rows="10" placeholder="Поделитесь впечатлениями"></textarea>
+                <button id="add-comment" type="button">Добавить</button>
+            </form>
+        </div>    </div>
+<script type="text/javascript" src="index.c9a5a11c78329c60f576.js"></script></body>
+</html>
